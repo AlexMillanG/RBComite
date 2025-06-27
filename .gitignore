@@ -1,0 +1,52 @@
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+/workspace.xml
+/tasks.xml
+/dictionaries/
+/usage.statistics.xml
+/usage.statistics.state.xml
+/filters/
+/artifacts/
+/captures/
+/deployment/
+/shelf/
+/gradle.xml
+/compiler.xml
+
+# Build
+/target/
+/build/
+/.gradle/
+
+# Maven
+/logs/
+/*.log
+/*.war
+/*.jar
+/*.ear
+
+# Gradle
+.gradle/
+/build/
+
+# Spring Boot DevTools
+.spring-boot-devtools.properties
+
+# Test reports
+/test-output/
+/surefire-reports/
+/jacoco.exec
+
+# OS files
+.DS_Store
+Thumbs.db
+
+application.properties
+application-local.properties
+application-dev.properties
+application-test.properties
+
+# Environment variables
+.env
