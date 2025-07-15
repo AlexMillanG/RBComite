@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "groups")
+@Table(name = "user_groups")
 @Data
 public class GroupEntity {
     @Id
@@ -21,7 +21,7 @@ public class GroupEntity {
     private String neighborhood;
 
     @OneToMany(mappedBy = "group")
-    private List<UserEntity> members;
+    private List<UserEntity> members = new ArrayList<>();
 
     @OneToMany(mappedBy = "group")
     private List<EventEntity> events = new ArrayList<>();
